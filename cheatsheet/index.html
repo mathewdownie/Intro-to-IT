@@ -4,8 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Gray Downie">
-        <meta name="description"
-            content="HTML Cheatsheet for Intro to IT and Apps" />
+        <meta name="description" content="HTML Cheatsheet for Intro to IT and Apps" />
+        <link href="../assets/css/style.css" rel="Stylesheet">
+        <style>
+            input, label, textarea{
+                display: block;
+            }
+        </style>
         <title>Cheat Sheet</title>
     </head>
     <body>
@@ -62,9 +67,34 @@
                 <li><a href="https://www.youtube.com" target="_blank">Absolute Link</a></li>
                 <li><a href="../index.html">Relative Link</a></li>
                 <li><a href="#headings">Anchor Link</a></li>
+                <!--Bad Practice. Opens email app, not helpful-->
                 <li><a href="mailto:email@email.com">Email Link</a></li>
             </ul>
         </section>
+        <section id="table">
+            <h2>Tables:</h2>
+            <table border="1">
+                <caption>Grocery List</caption>
+                <tr>
+                    <th scope="col">Item</th><th scope="col">Quantity</th><th scope="col">Cost</th>
+                </tr>
+                <tr>
+                    <td>Jolt</td><td align="center">6</td><td>$0.99</td>
+                </tr>
+            </table>
+        </section>
+        <section id="forms">
+            <form action="processing-script.php" method="get">
+                <fieldset>
+                    <legend>Sample Form Elements</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type= "text" id="fullname" name="fullname">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address"></textarea>
+                </fieldset>
+            </form>
+        </section>
+
         <footer class="primary">
             <nav>
                 <ul title="Unordered List">
