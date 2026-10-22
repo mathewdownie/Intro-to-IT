@@ -17,7 +17,19 @@
         <header class="primary">
             <h1>HTML5 Cheatsheet</h1>
         </header>
-
+        <section id="quote">
+            <h2>Quotes:</h2>
+            <h3>Block Quote:</h3>
+            <blockquote>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <cite>Aut, aliquid!</cite>
+            </blockquote>
+            <h3>Inline Quote:</h3>
+            <q>Lorem ipsum dolor sit amet</q> consectetur adipisicing elit. Mollitia iure consequuntur facere cumque, alias nam.
+        </section>
+        <section id="images">
+            <h2>Images:</h2>
+            <img src="./assets/img/placeholder.svg" alt="This is a photo">
+        </section>
         <section id="headings">
             <h1>Headings:</h1>
             <h1>Heading 1</h1>
@@ -29,20 +41,22 @@
         </section>
         <section id="text-elements">
             <h2>Text Elements:</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                cupiditate molestias voluptatum dolorum delectus odit? Porro
-                nihil, illum suscipit totam rerum
+            <p>Lorem ipsum dolor sit <em>amet consectetur</em> adipisicing elit. <strong>Fugiat
+                cupiditate molestias</strong> voluptatum dolorum delectus odit? <del>Porro
+                nihil</del>, illum <mark>suscipit totam</mark> rerum 
                 culpa asperiores consequatur, saepe laudantium ipsam earum
                 voluptas architecto nam. Officia exercitationem deleniti
-                molestias quasi consequatur facere odio quibusdam animi,
-                reprehenderit officiis, dolor est, aperiam harum veniam tempore
-                quam quia ab ut nesciunt in eligendi.
-                Nobis eaque nulla excepturi autem. Harum neque vel numquam
-                temporibus quam, modi amet. Dolore tenetur suscipit aperiam
-                dignissimos quaerat rem veniam in, facere vel similique incidunt
-                sint quia sed tempore temporibus ut, vitae commodi quam eos
-                repellat nobis voluptas? Corrupti cumque doloremque quos
-                possimus.</p>
+                molestias quasi consequatur facere <q>odio quibusdam animi,
+                reprehenderit officiis</q>, dolor est, aperiam harum veniam tempore
+                quam quia ab ut <sub>nesciunt</sub> in <sup>eligendi</sup>.
+            </p>
+            <hr id="dontuse">
+            <address>
+                Gray Downie</br id="dontuse">
+                1423465 iodfja jr</br>
+                Little Rock, AR 72122
+            </address>
+            <hr>
         </section>
         <section id="lists">
             <h2>Lists:</h2>
@@ -91,10 +105,18 @@
                     <input type= "text" id="fullname" name="fullname">
                     <label for="address">Address:</label>
                     <textarea id="address" name="address"></textarea>
+                    <label for="color">Favorite Color:</label>
+                    <select name="color" id="color">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="-" selected>Choose Color...</option>
+                    </select>
+                    <input type="submit" value="Send">
                 </fieldset>
             </form>
         </section>
-
+        
         <footer class="primary">
             <nav>
                 <ul title="Unordered List">
