@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  color:black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 8rem auto auto 1fr;
+}
+
+footer.primary {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 10;
+  grid-row-end: 11;
+}
+
+footer.primary {
+  background: #161616;
+  text-shadow: 2px 2px 3px #000000;
+  color: white;
+  padding: 40px;
+}
+
+.primary{
+    background-color: rgb(219,112,147);
+}
+
+#wild-side{
+    background-color: rgb(255,160,122);
+}
+
+#buffalo-river{
+    background-color: rgb(240,128,128);
+}
+
+#hiking-trails{
+    background-color: rgb(220,20,60);
+}
+
+#checklist-tips{
+    background-color: rgb(178,34,34);
+}
+
+#ozarks{
+    background-color: rgb(139,0,0);
+}
+
+#terms{
+    background-color: rgb(128,0,0);
+}
+
+#race-times{
+    background-color: rgb(255,99,71);
+}
+
+#adventures{
+    background-color: rgb(255,69,0);
+}
