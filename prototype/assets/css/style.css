@@ -22,9 +22,6 @@ footer.primary {
   grid-column-end: 2;
   grid-row-start: 10;
   grid-row-end: 11;
-}
-
-footer.primary {
   background: #161616;
   text-shadow: 2px 2px 3px #000000;
   color: white;
